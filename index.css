@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    text-align: center;
+}
+/* 
+btn-outline-dark
+font-family: 'Island Moments', cursive;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Orelega One', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Island Moments', cursive;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Oswald', sans-serif; */
+
+
+
+@media screen and (max-width:768px){
+    h2{
+        font-family:'Oswald', sans-serif;
+    
+        color: rgb(94, 206, 206);
+        font-size: 1rem;
+        margin: 10px;
+        
+    }
+    .enter-date{
+        margin: 20px;
+    }
+    .pp1{
+        margin: 20px;
+        font-size: 1.5rem;
+       color: rgb(187, 52, 176);
+       font-family: 'Oswald', sans-serif;
+       
+    }
+    .navbar-brand{
+        
+        font-family: 'Nunito Sans', sans-serif;
+    }
+    
+    
+}
