@@ -27,7 +27,18 @@ font-family: 'Oswald', sans-serif; */
         
     }
     .enter-date{
-        margin: 20px;
+        margin: 20px 0px;
+        
+    }
+    /* .enter{
+        
+        display: flex;
+        margin: auto;
+    } */
+    .inputy{
+        width: 40%;
+        border: 1px solid rgb(121, 78, 78);
+        margin: 6px 4px;
     }
     .pp1{
         margin: 20px;
@@ -40,6 +51,21 @@ font-family: 'Oswald', sans-serif; */
         
         font-family: 'Nunito Sans', sans-serif;
     }
-    
-    
+    .r1{
+        color: rgb(111, 161, 78);
+        
+    }
+    .r2{
+        color: rgb(102, 255, 0);
+        font-family: 'Oswald', sans-serif;
+    }
+    .r3{
+        color: rgb(163, 87, 87);
+        font-family: 'Orelega One', cursive;
+        margin: 2px;
+    }
+    .r4{
+        color: blueviolet;
+        font-family: 'Orelega One', cursive;
+    }
 }

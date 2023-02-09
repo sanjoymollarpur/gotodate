@@ -58,9 +58,17 @@
         </div>
       </nav> 
       <h2>Enter a date and know what was or will be the day</h2>
-      <div class="enter-date">
-        <input type="date" id="b1" name="b1">
+      <div class="enter-date r1">
+      <h4>Enter Year</h4>
+        <input class="inputy" type="number" id="year1">
+      
+        <h4>Enter Month(i.e. 1 to 12)</h4>
+        <input class="inputy" type="number" id="month1">
+        <h4>Enter Day(i.e. 1 to 31)</h4>
+        <input class="inputy" type="number" id="day1">
       </div>
+     
+     
 
       <div>
         <button class="btn btn-dark" id="btn1">Press to Know</button>
@@ -68,6 +76,18 @@
       <div class="pp1" id="pp1">
         
       </div>
+      <div class="enter-date">
+        <h4 class="r2">If you want to verify day is correct or not Just click calendar given below!</h4>
+        <input type="date" id="b1" name="b1">
+      </div>
+      <div class="enter-date r3">
+        Note: If you choose invalid Month(like greater than 12 or less than 1), Day(i.e. greater than 31 or less than 1 or Non leap year month greater than 28 etc), It will give wrong answer.
+      </div>
+     
+     <div class="enter-date r4">
+      <h3>Thanks to Visiting</h3> 
+      
+     </div>
       <script src="index.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
       

@@ -25,17 +25,30 @@ function isLeapYear(a)
 
 function first1()
 {
+    const year1=document.getElementById("year1").value
+    const month1=document.getElementById("month1").value
+    const day1=document.getElementById("day1").value
     const b1=document.getElementById("b1").value
     const b2=b1.split("-")
-    if(b1=="")
+    if(year1=="" || month1=="" || day1=="")
     {
         const pp1= document.getElementById('pp1');
         pp1.innerText=`Enter a valid date`;
     }
+
+
+    // if(b1=="")
+    // {
+    //     const pp1= document.getElementById('pp1');
+    //     pp1.innerText=`Enter a valid date`;
+    // }
     else{
-    const y=parseInt(b2[0])
-    const m=parseInt(b2[1])
-    const d=parseInt(b2[2])
+    const y=parseInt(year1)
+    const m=parseInt(month1)
+    const d=parseInt(day1)
+    // const y=parseInt(b2[0])
+    // const m=parseInt(b2[1])
+    // const d=parseInt(b2[2])
     // const y=2028
     // const m=1
     // const d=1
